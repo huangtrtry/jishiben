@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <!--强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+    <!--WebApp全屏模式   隐藏地址栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!--制定iphone中safari顶端的状态条的样式（default:白色，black:黑色，black-translucent：半透明）-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="stylesheet" type="text/css" href="css/shouji.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="top">
+            <div class="adress">
+                宿迁市鲁豫区
+            </div>
+            <div class="search">
+                <input type="text" name="" placeholder="搜索商品，体育赛事">
+            </div>
+            <div class="mine">
+                <span>我的</span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="photos">
+                <img src="image/sp1.jpg">
+                <img src="image/sp2.jpg">
+                <img src="image/sp3.jpg">
+            </div>
+        </div>
+        <div class="space">
+        </div>
+        <div class="brand">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="image/cy.png">
+                        </div>
+                        餐饮住宿
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="image/qc.png">
+                        </div>
+                        汽车美容
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="image/sh.png">
+                        </div>
+                        生活服务
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="image/tx.png">
+                        </div>
+                        休闲娱乐
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="image/jy.png">
+                        </div>
+                        教育培训
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="image/jc.png">
+                        </div>
+                        家居建材
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="image/js.png">
+                        </div>
+                        酒水饮料
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="image/hq.png">
+                        </div>
+                        婚纱婚庆
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="space"></div>
+        <div class="newp">
+            <img src="image/p1.png">
+            <img src="image/p2.png">
+            <img src="image/p3.png">
+        </div>
+        <div class="space"></div>
+        <div class="long_brand">
+            <img src="image/panicbuy.png">
+        </div>
+        <div class="foot">
+            <div>首页</div>
+            <div>消息</div>
+            <div>收藏</div>
+            <div>趣事</div>
+            <div>我的</div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!--<div class="brand">
+            <div class="item">
+                <a href="#">
+                    <div>
+                        <img src="image/cy.png">
+                    </div>
+                    餐饮住宿
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div>
+                        <img src="image/qc.png">
+                    </div>
+                    汽车美容
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div>
+                        <img src="image/sh.png">
+                    </div>
+                    生活服务
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div>
+                        <img src="image/tx.png">
+                    </div>
+                    休闲娱乐
+                </a>
+            </div>
+        </div>
+        <div class="brand">
+            <div class="item">
+                <a href="#">
+                    <div>
+                        <img src="image/jy.png">
+                    </div>
+                    教育培训
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div>
+                        <img src="image/jc.png">
+                    </div>
+                    家居建材
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div>
+                        <img src="image/js.png">
+                    </div>
+                    酒水饮料
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div>
+                        <img src="image/hq.png">
+                    </div>
+                    婚纱婚庆
+                </a>
+            </div>
+        </div>
+
+
+        .brand {
+
+    width: 100%;
+    height: 6rem;
+
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+
+}
+
+
+
+.brand .item {
+    flex-grow: 1;
+    height: 6rem;
+
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+
+.brand .item a {
+    text-decoration: none;
+    color: #444;
+    font-size: 13px;
+}
+
+.brand .item div {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    border-radius: 50%;
+}
+
+.brand .item a div img {
+    padding-top: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.brand .item div {
+
+    background: #ea8a57;
+}
+
+.brand .item:nth-of-type(2) div {
+
+    background: #cd9cc9;
+}
+
+.brand .item:nth-of-type(3) div {
+
+    background: #76c0d9;
+}
+
+.brand .item:nth-of-type(4) div {
+
+    background: #7687f1;
+}
+
+.brand:nth-of-type(2) .item:nth-of-type(1) div {
+    background: red;
+}-->
